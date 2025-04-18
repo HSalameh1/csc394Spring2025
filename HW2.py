@@ -2,8 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-workout_list = []
-meal_list = []
+workout_list = [abs, squats, arms]
+meal_list = [salad]
 user_list = []
 
 #list of workouts 
